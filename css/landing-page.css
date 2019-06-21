@@ -131,4 +131,15 @@ footer.footer {
   padding-bottom: 120px;
 }
 
+@media (min-width: 768px) {
+  .call-to-action-form {
+    display: flex;
+    flex-direction: column;
+  }
+  #email_button {
+    width: 250%
+  }
+}
+
+
 
